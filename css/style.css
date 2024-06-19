@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.searchContainer input{
+    padding: 5px;
+    border: none;
+}
+.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-links{
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.messenger-section{
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
