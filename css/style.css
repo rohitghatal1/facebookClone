@@ -14,11 +14,13 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 
 .searchContainer input{
-    padding: 5px;
+    padding: 6px;
     border: none;
+    border-radius: 2rem;
 }
 .navbarContainer{
     display: flex;
@@ -36,9 +38,11 @@
 .nav-links{
     margin-left: 2rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .messenger-section{
     margin-right: 1.5rem;
     font-size: 1.5rem;
+    cursor: pointer;
 }

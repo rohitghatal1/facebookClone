@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+    .navbarContainer{
+        display: none;
+    }
+
+    .headerWithLogo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .logo-mobile{
+        width: 8rem;
+        height: 3rem;
+    }
+    .logo-mobile img{
+        width: 100%;
+    }
+
+    .header-mobile{
+        display: flex;
+        gap: 1rem;
+        font-size: 20px;
+    }
+
+    .navbarContents-mobile{
+        margin-top: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+}
