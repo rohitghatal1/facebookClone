@@ -3,6 +3,9 @@
         display: none;
     }
 
+    .mobileNavbar{
+        display: block;
+    }
     .headerWithLogo{
         display: flex;
         justify-content: space-between;
