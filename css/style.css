@@ -118,7 +118,8 @@ body{
 main{
     background-color: #18191a;
     margin-left: 18rem;
-    padding: 2rem;
+    width: 52rem;
+    padding: 1rem;
 }
 
 .feedsContainer{
@@ -128,7 +129,6 @@ main{
 .storiesContainer{
     display: flex;
     position: relative;
-    width: 48rem;
 }
 
 .addStoryCard{
@@ -241,4 +241,39 @@ main{
     color: #fff;
     font-size: 24px;
     cursor: pointer;
+}
+
+.whatsOnYourMind{
+    background-color: #242526;
+}
+.logoAndInput{
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoAndInput input{
+    background-color: #4e4f50;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #3a3b3c;
+}
+.acitvitySection{
+    margin-top: 1rem;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
