@@ -44,16 +44,34 @@ body{
     height: 40px;
 }
 
+.navItems{
+    margin-left: -5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
 .nav-links{
     margin-left: 2rem;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
+.messenger{
+    display: flex;
+}
 .messenger-section{
+    background-color: #4e4f50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
     margin-right: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .leftSidebar{
@@ -99,7 +117,7 @@ body{
 
 main{
     background-color: #18191a;
-    margin-left: 20rem;
+    margin-left: 18rem;
     padding: 2rem;
 }
 
@@ -109,14 +127,17 @@ main{
 
 .storiesContainer{
     display: flex;
-    gap: 3px;
+    position: relative;
+    width: 48rem;
 }
+
 .addStoryCard{
     width: 13rem;
     height: 18rem;
     padding: 1rem;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 .userPhoto{
     width: 100%;
@@ -140,6 +161,7 @@ main{
     z-index: 3;
     padding: 5px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .create{
@@ -153,12 +175,13 @@ main{
 }
 
 .storyCard{
-    width: 13rem;
+    width: 11.5rem;
     height: 18rem;
-    padding: 1rem;
+    padding: 8px;
     border-radius: 2rem;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .story{
@@ -180,13 +203,13 @@ main{
 }
 
 .userLogo{
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    top: 1.5rem;
-    left: 1.5rem;
+    top: 1.2rem;
+    left: 1.2rem;
     border: 4px solid blue;
 }
 
@@ -202,4 +225,20 @@ main{
     color: #fff;
     font-size: medium;
     text-align: center;
+}
+
+.nextbtn{
+    position: absolute;
+    right: 1.5rem;
+    top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #3a3b3c;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
 }
