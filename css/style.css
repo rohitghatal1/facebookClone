@@ -12,8 +12,12 @@ body{
 }
 .navbar{
     background-color: #242526;
+    position: sticky;
+    top: 0;
+    left: 0;
     color: white;
     padding: 8px;
+    z-index: 10;
 }
 
 .navbarContainer{
@@ -89,6 +93,8 @@ main{
     width: 35%;
 }
 .leftSidebarContainer{
+    position: sticky;
+    top: 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -279,12 +285,80 @@ hr{
     align-items: center;
 }
 
+.postSection{
+    margin-top: 1rem;
+}
+.postHeading{
+    background-color: #242526;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4px;
+}
+
+.postHeading p{
+    font-size: small;
+}
+.personDetails{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.postLogo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.postLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.utilitybtn{
+    display: flex;
+    gap: 15px;
+}
+.postImage img{
+    width: 100%;
+    height: 75%;
+}
+
+.reactionSection{
+    background-color: #242526;
+    padding: 4px;
+}
+.currentReactions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.commentAndShare{
+    display: flex;
+    gap: 1rem;
+}
+
+.reactBtns{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
 .groups{
     width: 23%;
     margin-left: 7rem;
 }
 
 .groupContainer{
+    position: sticky;
+    top: 4rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -294,7 +368,6 @@ hr{
     display: flex;
     align-items: center;
     gap: 4px;
-    font-size: small;
 }
 
 .logoImg{
