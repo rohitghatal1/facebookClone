@@ -288,6 +288,10 @@ main{
     border-radius: 20px;
 }
 
+.addPhoto-mobile{
+    display: none;
+}
+
 hr{
     width: 90%;
     margin: auto;

@@ -78,4 +78,14 @@
     .feedsContainer{
         width: 100%;
     }
+
+    .addPhoto-mobile{
+        display: block;
+        margin-right: 10px;
+        font-size: large;
+    }
+
+    .acitvitySection{
+        display: none;
+    }
 }
