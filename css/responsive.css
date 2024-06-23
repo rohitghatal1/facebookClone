@@ -89,9 +89,6 @@
         display: none;
     }
 
-    .menusMobile{
-        display: block;
-    }
     .menuHeading{
         display: flex;
         justify-content: space-between;

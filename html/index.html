@@ -44,7 +44,7 @@
         </div>
 
         <div class="mobileNavbar">
-            <div class="headerWithLogo">
+            <div class="headerWithLogo" id="headerAndLogo-M">
                 <div class="logo-mobile">
                     <span><a href="index.html"><img src="/logo/facebook-logo-white-full-transparent.png"
                                 alt=""></a></span>
@@ -57,11 +57,11 @@
             </div>
 
             <div class="navbarContents-mobile">
-                <span><i class="bi bi-house-door-fill"></i></span>
+                <span onclick="openHomeMenu()"><i class="bi bi-house-door-fill"></i></span>
                 <span><i class="bi bi-play-btn-fill"></i></span>
                 <span><i class="bi bi-people-fill"></i></span>
                 <span><i class="bi bi-person-circle"></i></span>
-                <span><i class="bi bi-list"></i></span>
+                <span onclick="openMenusMobile()"><i class="bi bi-list"></i></span>
             </div>
         </div>
     </nav>
@@ -90,7 +90,7 @@
             </div>
         </section>
 
-        <div class="feedsContainer">
+        <div class="feedsContainer" id="feeds">
             <section class="storiesSecion">
                 <div class="storiesContainer">
                     <div class="addStoryCard">
@@ -252,7 +252,7 @@
             </section>
         </div>
 
-        <div class="groups">
+        <div class="groups" id="groups">
             <div class="groupContainer">
                 <h3>Group Conversation</h3>
                 <div class="groupLogo">
@@ -267,7 +267,7 @@
             </div>
         </div>
     </main>
-    <section class="menusMobile">
+    <section class="menusMobile" id="mobileMenus">
         <div class="menuContainerMobile">
             <div class="menuHeading">
                 <h2>Menu</h2>
@@ -367,4 +367,5 @@
     </section>
 </body>
 
+<script src="/JS/script.js"></script>
 </html>
