@@ -172,5 +172,50 @@
         text-align: center;
         padding: 5px;
         border-radius: 5px;
+        border: none;
+    }
+
+    .privacyAndSettingContainer{
+        background-color: #2a2b2c;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        gap: 0.5rem;
+    }
+    .privacyAndSettingContainer figure{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        overflow: none;
+    }
+
+    .privacyAndSettingContainer figure img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .privacyAndSettingContainer hr{
+        width: 100%;
+        border: 1px solid #fff;
+    }
+    .helpAndSupport,
+    .settingPrivacy,
+    .fromMeta{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .logoutbtn{
+        width: 97%;
+        margin: auto;
+        background-color: #4e4f50;
+        color: #fff;
+        text-align: center;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
     }
 }
