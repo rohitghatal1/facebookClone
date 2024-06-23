@@ -6,6 +6,7 @@
     .mobileNavbar{
         display: block;
     }
+
     .headerWithLogo{
         display: flex;
         justify-content: space-between;
@@ -13,10 +14,12 @@
         width: 100%;
         margin: auto;
     }
+
     .logo-mobile{
         width: 8rem;
         height: 3rem;
     }
+
     .logo-mobile img{
         width: 100%;
     }
@@ -32,5 +35,47 @@
         display: flex;
         justify-content: space-between;
         font-size: 20px;
+    }
+
+    main{
+        padding: 0;
+    }
+
+    .feedsContainer > .whatsOnYourMind {
+        order: 1;
+    }
+
+    .feedsContainer > .storiesSection {
+        order: 2;
+    }
+
+    .feedsContainer > .postSection{
+        order: 3;
+    }
+
+    .storiesContainer{
+        overflow-x: auto;
+    }
+
+    .addStoryCard{
+        width: 10rem;
+    }
+
+    .storyCard{
+        width: 10rem;
+        padding: 3px;
+        border-radius: 8px;
+    }
+
+    .leftMenus{
+        display: none;
+    }
+
+    .groups{
+        display: none;
+    }
+
+    .feedsContainer{
+        width: 100%;
     }
 }
