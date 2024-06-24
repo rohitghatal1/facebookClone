@@ -59,7 +59,7 @@
             <div class="navbarContents-mobile">
                 <span onclick="openHomeMenu()"><i class="bi bi-house-door-fill"></i></span>
                 <span><i class="bi bi-play-btn-fill"></i></span>
-                <span><i class="bi bi-people-fill"></i></span>
+                <span onclick="openFriendMenu()"><i class="bi bi-people-fill"></i></span>
                 <span><i class="bi bi-person-circle"></i></span>
                 <span onclick="openMenusMobile()"><i class="bi bi-list"></i></span>
             </div>
@@ -505,14 +505,66 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="friendRequestMobile">
-            <div class="requestHeader">
-                <h3>Friends</h3>
-                <figure class="searchIcon"><img src="/logo/search.svg" alt=""></figure>
+    <div class="friendRequestMobile" id="fReqMobile">
+        <div class="requestHeader">
+            <h2>Friends</h2>
+            <figure class="searchIcon"><img src="/logo/search.svg" alt=""></figure>
+        </div>
+        <div class="requestCategories-M">
+            <span class="requests">Friend requests</span>
+            <span class="currentFriends">Your friends</span>
+        </div>
+        <hr>
+
+        <div class="fRequests-M">
+            <h3>People you may know</h3>
+
+            <div class="personRequestCards">
+                <div class="reqCard">
+                    <figure class="personLogo"><img src="/images/diya.jpg" alt=""></figure>
+                    <div class="persondetails">
+                        <p>Deeya Malla</p>
+                        <div class="buttons-M">
+                            <button class="addfriendbtn">Add friend</button>
+                            <button class="removeReq">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reqCard">
+                    <figure class="personLogo"><img src="/images/pratik1.jpg" alt=""></figure>
+                    <div class="persondetails">
+                        <p>Pratik Sijapati</p>
+                        <div class="buttons-M">
+                            <button class="addfriendbtn">Add friend</button>
+                            <button class="removeReq">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reqCard">
+                    <figure class="personLogo"><img src="/images/rebika.jpg" alt=""></figure>
+                    <div class="persondetails">
+                        <p>Rebika Ramjali</p>
+                        <div class="buttons-M">
+                            <button class="addfriendbtn">Add friend</button>
+                            <button class="removeReq">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="reqCard">
+                    <figure class="personLogo"><img src="/images/diya1.jpg" alt=""></figure>
+                    <div class="persondetails">
+                        <p>Deeya Malla</p>
+                        <div class="buttons-M">
+                            <button class="addfriendbtn">Add friend</button>
+                            <button class="removeReq">Remove</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
 </body>
 
 <script src="/JS/script.js"></script>
