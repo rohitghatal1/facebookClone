@@ -15,9 +15,10 @@ body{
 
 .navbar{
     background-color: #242526;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
     color: white;
     padding: 8px;
     z-index: 10;
@@ -142,6 +143,8 @@ main{
     display: flex;
     flex-direction: column;
     width: 42%;
+    position: relative;
+    top: 3rem;
 }
 
 .feedsContainer > .storiesSection{
@@ -508,7 +511,8 @@ hr{
 }
 
 .seee{
-    color: blue;
+    color: #6bb0ff;
+    font-weight: bold;
 }
 
 .personCardContainer{
