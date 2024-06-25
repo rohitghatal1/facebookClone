@@ -93,7 +93,8 @@ body{
 }
 
 main{
-    display: flex;
+    /* display: flex; */
+    display: none;
     justify-content: space-between;
     background-color: #18191a;
     color: #fff;
@@ -565,4 +566,8 @@ hr{
 .remove{
     background-color: #4e4f50;
     color: #dde9ed;
+}
+
+.friendRequestMobile{
+    display: none;
 }
