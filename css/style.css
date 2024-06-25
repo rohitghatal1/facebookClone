@@ -573,6 +573,10 @@ hr{
 }
 
 .videoSection{
+    width: 100%;
+}
+
+.videoSection .sideVideoMenus{
     background-color: #242526;
     color: #fff;
     position: fixed;
@@ -583,7 +587,6 @@ hr{
     padding: 0.6rem;
     border-right: 1px solid #ccc;
 }
-
 .videoSection .sideVideoMenus .heading{
     display: flex;
     justify-content: space-between;
@@ -619,6 +622,44 @@ hr{
 }
 
 .sideMenuLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.videosContainer{
+    position: absolute;
+    left: 20rem;
+    top: 5rem;
+    color: #fff;
+    padding: 1.5rem;
+    width: 75rem;
+}
+
+.allVideos{
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+
+.video{
+    background-color: #242526;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+.videoOwnerDetails{
+    display: flex;
+    gap: 0.5rem;
+}
+.V-ownerLogo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.V-ownerLogo img{
     width: 100%;
     height: 100%;
 }
