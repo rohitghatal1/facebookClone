@@ -680,3 +680,44 @@ hr{
     width: 80%;
     height: 100%;
 }
+
+.videoReactions{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newReaction{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    font-size: small;
+}
+
+.like,
+.comment,
+.share{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.videoReactions .reactionIcons{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 5px;
+    background-color: #4e4f50;
+    border-radius: 50%;
+}
+
+.videoReactions .reactionIcons img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: color-burn;
+}
+
+.currentVideoReactions{
+    display: flex;
+    gap: 0.8rem;
+    font-size: small;
+}
