@@ -93,8 +93,7 @@ body{
 }
 
 main{
-    /* display: flex; */
-    display: none;
+    display: flex;
     justify-content: space-between;
     background-color: #18191a;
     color: #fff;
@@ -574,6 +573,7 @@ hr{
 
 .videoSection{
     width: 100%;
+    display: none;
 }
 
 .videoSection .sideVideoMenus{
@@ -636,6 +636,9 @@ hr{
 }
 
 .allVideos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     color: #fff;
     width: 90%;
     margin: auto;
@@ -646,7 +649,7 @@ hr{
     width: 80%;
     margin: auto;
     padding: 1rem;
-    border-radius: 0.8rem;
+    border-radius: 0.6rem;
 }
 .videoOwnerDetails{
     display: flex;

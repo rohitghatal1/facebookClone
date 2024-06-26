@@ -5,18 +5,26 @@ let homeMenu = document.getElementById("homePage");
 let feeds = document.getElementById("feeds");
 let FRequestTab = document.getElementById("freindRequestTab");
 let mainTab = document.getElementById("mainTab");
+let videoSection = document.getElementById("videoContainer");
 
 
 function openMainTab(){
     mainTab.style.display = "flex";
     FRequestTab.style.display = "none";
+    videoSection.style.display = "none";
 }
 
 function openFriendRequestTab(){
-    mainTab.style.display = "none";
     FRequestTab.style.display = "block";
+    mainTab.style.display = "none";
+    videoSection.style.display = "none";
 }
 
+function openVideoTab(){
+    videoSection.style.display = "block"
+    mainTab.style.display = "none";
+    FRequestTab.style.display = "none";
+}
 // for mobile devices
 function openHomeMenu(){
     mobileMenu.style.display = "none";
