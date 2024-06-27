@@ -6,24 +6,35 @@ let feeds = document.getElementById("feeds");
 let FRequestTab = document.getElementById("freindRequestTab");
 let mainTab = document.getElementById("mainTab");
 let videoSection = document.getElementById("videoContainer");
+let groupSection = document.getElementById("groupContainer");
 
 
 function openMainTab(){
     mainTab.style.display = "flex";
     FRequestTab.style.display = "none";
     videoSection.style.display = "none";
+    groupSection.style.display = "none";
 }
 
 function openFriendRequestTab(){
     FRequestTab.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none";
+    groupSection.style.display = "none";
 }
 
 function openVideoTab(){
     videoSection.style.display = "block"
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
+    groupSection.style.display = "none"
+}
+
+function openGroupTab(){
+    groupSection.style.display = "block";
+    mainTab.style.display = "none";
+    FRequestTab.style.display = "none";
+    videoSection.style.display = "none";
 }
 // for mobile devices
 function openHomeMenu(){
