@@ -41,7 +41,8 @@ function openHomeMenu(){
     mobileMenu.style.display = "none";
     friendMenu.style.display = "none";
     mobileHeader.style.display = "flex";
-    // feeds.style.display = "block";
+    feeds.style.display = "block";
+    window.location.reload();
 }
 
 function openMenusMobile(){
