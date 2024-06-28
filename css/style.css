@@ -13,6 +13,10 @@ body{
     position: relative;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 .navbar{
     background-color: #242526;
     position: fixed;
@@ -93,8 +97,8 @@ body{
 }
 
 main{
-    /* display: flex; */
-    display: none;
+    display: flex;
+    /* display: none; */
     justify-content: space-between;
     background-color: #18191a;
     color: #fff;
@@ -898,7 +902,7 @@ hr{
 }
 
 .marketPlace{
-    /* display: none; */
+    display: none;
     width: 100%;
 }
 

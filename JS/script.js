@@ -7,12 +7,14 @@ let FRequestTab = document.getElementById("freindRequestTab");
 let mainTab = document.getElementById("mainTab");
 let videoSection = document.getElementById("videoContainer");
 let groupSection = document.getElementById("groupContainer");
+let marketPlaceSection = document.getElementById("marketPlaceContainer");
 
 
 function openMainTab(){
     mainTab.style.display = "flex";
     FRequestTab.style.display = "none";
     videoSection.style.display = "none";
+    marketPlaceSection.style.display = "none";
     groupSection.style.display = "none";
 }
 
@@ -20,12 +22,22 @@ function openFriendRequestTab(){
     FRequestTab.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none";
+    marketPlaceSection.style.display = "none";
     groupSection.style.display = "none";
 }
 
 function openVideoTab(){
     videoSection.style.display = "block"
     mainTab.style.display = "none";
+    FRequestTab.style.display = "none";
+    marketPlaceSection.style.display = "none";
+    groupSection.style.display = "none"
+}
+
+function openMarketPlaceTab(){
+    marketPlaceSection.style.display = "block";
+    mainTab.style.display = "none";
+    videoSection.style.display = "none"
     FRequestTab.style.display = "none";
     groupSection.style.display = "none"
 }
@@ -34,6 +46,7 @@ function openGroupTab(){
     groupSection.style.display = "block";
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
+    marketPlaceSection.style.display = "none";
     videoSection.style.display = "none";
 }
 // for mobile devices
