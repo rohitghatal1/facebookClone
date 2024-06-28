@@ -93,8 +93,8 @@ body{
 }
 
 main{
-    display: flex;
-    /* display: none; */
+    /* display: flex; */
+    display: none;
     justify-content: space-between;
     background-color: #18191a;
     color: #fff;
