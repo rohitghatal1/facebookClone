@@ -912,6 +912,7 @@ hr{
     height: 100vh;
     padding: 0.6rem;
     border-right: 1px solid #ccc;
+    overflow: scroll;
 }
 .marketPlace .sideMPMenus .heading{
     display: flex;
@@ -972,4 +973,13 @@ hr{
     border: 1px solid #ccc;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+.MPCategories{
+    margin-top: 0.5rem;
+    padding-bottom: 4rem;
+}
+
+.marketPlace .sideMPMenus::-webkit-scrollbar{
+    display: none;
 }
