@@ -8,6 +8,7 @@ let mainTab = document.getElementById("mainTab");
 let videoSection = document.getElementById("videoContainer");
 let groupSection = document.getElementById("groupContainer");
 let marketPlaceSection = document.getElementById("marketPlaceContainer");
+let notificatiion
 
 
 function openMainTab(){
@@ -48,6 +49,10 @@ function openGroupTab(){
     FRequestTab.style.display = "none";
     marketPlaceSection.style.display = "none";
     videoSection.style.display = "none";
+}
+
+function openNotification(){
+
 }
 // for mobile devices
 function openHomeMenu(){
