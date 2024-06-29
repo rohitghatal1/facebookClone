@@ -12,6 +12,7 @@ let notificatinModal = document.getElementById("notificaionModal");
 
 
 function openMainTab(){
+    document.getElementById("homeTab").classList.toggle('borderTop')
     mainTab.style.display = "flex";
     FRequestTab.style.display = "none";
     videoSection.style.display = "none";
@@ -20,6 +21,7 @@ function openMainTab(){
 }
 
 function openFriendRequestTab(){
+    document.getElementById("friendRequestTab").classList.toggle('borderTop')
     FRequestTab.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none";
@@ -28,6 +30,7 @@ function openFriendRequestTab(){
 }
 
 function openVideoTab(){
+    document.getElementById("videosTab").classList.toggle('borderTop')
     videoSection.style.display = "block"
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
@@ -36,6 +39,7 @@ function openVideoTab(){
 }
 
 function openMarketPlaceTab(){
+    document.getElementById("marketPlaceTab").classList.toggle('borderTop')
     marketPlaceSection.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none"
@@ -44,6 +48,7 @@ function openMarketPlaceTab(){
 }
 
 function openGroupTab(){
+    document.getElementById("groupTab").classList.toggle('borderTop')
     groupSection.style.display = "block";
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";

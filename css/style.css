@@ -59,6 +59,10 @@ body::-webkit-scrollbar{
     border-radius: 2rem;
 }
 
+.borderBottom{
+    border-top: 3px solid blue;
+}
+
 .logo img{
     width: 40px;
     height: 40px;
@@ -136,6 +140,7 @@ main{
     display: flex;
     align-items: center;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .userAvatar{
@@ -143,6 +148,7 @@ main{
     height: 2rem;
     border-radius: 50%;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .userAvatar img{
@@ -533,6 +539,7 @@ hr{
 .seee{
     color: #6bb0ff;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .personCardContainer{
@@ -550,7 +557,7 @@ hr{
 }
 .personPhoto{
     width: 100%;
-    height: 15rem;
+    height: 17rem;
 }
 .personPhoto img{
     width: 100%;
@@ -1032,7 +1039,7 @@ hr{
 
 .itemCard .itemPhoto{
     width: 100%;
-    height: 16rem;
+    height: 18rem;
 }
 .itemPhoto img{
     width: 100%;
@@ -1077,6 +1084,7 @@ hr{
     margin-top: 1rem;
 }
 .allAndUnread span{
+    cursor: pointer;
     background-color: #394d62;
     color: #81bbfc;
     margin-right: 0.6rem;
@@ -1101,6 +1109,7 @@ hr{
     display: flex;
     flex-direction: column;
     margin-top: 0.5rem;
+    cursor: pointer;
 }
 
 .notificationDetail{
