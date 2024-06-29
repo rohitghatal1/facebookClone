@@ -72,6 +72,20 @@ body::-webkit-scrollbar{
     gap: 5rem;
 }
 
+.navItemsLogo{
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    /* background-color: #4e4f50; */
+    color: #fff;
+    /* padding: 0.2rem; */
+}
+.navItemsLogo img{
+    height: 100%;
+    width: 100%;
+}
+
 .nav-links{
     margin-left: 2rem;
     font-size: 1.5rem;
@@ -1031,4 +1045,8 @@ hr{
 
 .itemCard p{
     font-size: small;
+}
+
+input{
+    color: #fff;
 }
