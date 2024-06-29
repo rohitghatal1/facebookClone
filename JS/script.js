@@ -8,7 +8,7 @@ let mainTab = document.getElementById("mainTab");
 let videoSection = document.getElementById("videoContainer");
 let groupSection = document.getElementById("groupContainer");
 let marketPlaceSection = document.getElementById("marketPlaceContainer");
-let notificatiion
+let notificatinModal = document.getElementById("notificaionModal");
 
 
 function openMainTab(){
@@ -51,9 +51,15 @@ function openGroupTab(){
     videoSection.style.display = "none";
 }
 
-function openNotification(){
-
+function openNotification() {
+    if(notificatinModal.style.display === 'none'){
+        notificatinModal.style.display = 'block';
+    }
+    else{
+        notificatinModal.style.display = 'none';
+    }
 }
+
 // for mobile devices
 function openHomeMenu(){
     mobileMenu.style.display = "none";
