@@ -76,10 +76,7 @@ body::-webkit-scrollbar{
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 50%;
-    /* overflow: hidden; */
-    /* background-color: #4e4f50; */
     color: #fff;
-    /* padding: 0.2rem; */
 }
 .navItemsLogo img{
     height: 100%;
@@ -94,6 +91,7 @@ body::-webkit-scrollbar{
 
 .messenger{
     display: flex;
+    gap: 1.5rem;
 }
 
 .messenger-section{
@@ -104,10 +102,13 @@ body::-webkit-scrollbar{
     width: 2rem;
     height: 2rem;
     padding: 5px;
-    margin-right: 1.5rem;
     font-size: 1.2rem;
     cursor: pointer;
     border-radius: 50%;
+}
+.messenger-section img{
+    height: 100%;
+    width: 100%;
 }
 
 main{
