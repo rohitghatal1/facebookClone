@@ -1165,3 +1165,97 @@ hr{
 input{
     color: #e7e9ed;
 }
+
+.messengerModal{
+    position: fixed;
+    top: 3.7rem;
+    right: 1rem;
+    width: 22rem;
+    height: 87vh;
+    border-radius: 0.4rem;
+    z-index: 15;
+    background-color: #242526;
+    color: #e7e9ed;
+    padding: 0.6rem;
+}
+
+.messageHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.utilitybuttons{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.messengerModal input{
+    margin-top: 0.6rem;
+    width: 98%;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+    background-color: #3a3b3c;
+    color: #e7e9ed;
+}
+
+.inboxCommunity{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #242526;
+    z-index: 4;
+    padding-bottom: 0.5rem;
+}
+
+.inboxCommunity span:nth-child(1){
+    background-color: #394d62;
+    color: #80bafa;
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+}
+
+.chatCardContainer{
+    height: 60vh;
+    overflow-y: scroll;
+}
+.chatCard{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    z-index: 3;
+}
+
+.chatCard .chatLogo{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chatCard .chatLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.chatCard .chatPersonDetails p{
+    font-size: small;
+}
+
+.seeAll{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #242526;
+    padding: 0.7rem;
+    width: 100%;
+    border-top: 1px solid #bbb;
+    z-index: 4;
+}
+.seeAll h4{
+    text-align: center;
+    color: #5aa7ff;
+}
