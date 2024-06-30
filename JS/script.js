@@ -10,6 +10,7 @@ let groupSection = document.getElementById("groupContainer");
 let marketPlaceSection = document.getElementById("marketPlaceContainer");
 let messageModal = document.getElementById("messageModal");
 let notificatinModal = document.getElementById("notificaionModal");
+let menuModal = document.getElementById("menuModal");
 
 function removeborderTop(){
     document.getElementById("homeTab").classList.remove('borderTop');
@@ -68,6 +69,14 @@ function openGroupTab(){
     videoSection.style.display = "none";
 }
 
+function openMenus(){
+    if(menuModal.style.display === 'none'){
+        menuModal.style.display = 'block';
+    }
+    else{
+        menuModal.style.display = 'none';
+    }
+}
 function openMesseges(){
     if(messageModal.style.display === 'none'){
         messageModal.style.display = 'block';

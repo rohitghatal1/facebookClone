@@ -1193,7 +1193,7 @@ input{
     cursor: pointer;
 }
 
-.messengerModal,
+.messengerModal input,
 .socialSection input{
     margin-top: 0.6rem;
     width: 98%;
@@ -1279,7 +1279,7 @@ input{
 }
 
 .menusModal{
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 3.7rem;
     right: 1rem;
