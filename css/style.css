@@ -1283,7 +1283,7 @@ input{
     position: fixed;
     top: 3.7rem;
     right: 1rem;
-    width: 32rem;
+    width: 40rem;
     height: 87vh;
     border-radius: 0.4rem;
     z-index: 15;
@@ -1304,6 +1304,18 @@ input{
     padding: 0.4rem;
     overflow-y: scroll;
     height: 80vh;
+}
+
+.socialSection::-webkit-scrollbar{
+    width: 0.7rem;
+}
+::-webkit-scrollbar-track{
+    background: #424242;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #7b7b7b;
+    border-radius: 0.7rem;
 }
 
 .socialSection .soicalCard{
@@ -1330,7 +1342,7 @@ input{
     width: 30%;
     border-radius: 0.6rem;
     padding: 0.4rem;
-    height: 80vh;
+    height: 70vh;
 }
 
 .socialSection h3{
@@ -1339,4 +1351,30 @@ input{
 
 .socialCardContainer{
     margin-top: 0.7rem;
+}
+
+
+.createItemsContainer{
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.createItems{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+
+.createItemLogo{
+    height: 2rem;
+    width: 2rem;
+    padding: 0.4rem;
+    border-radius: 50%;
+    background-color: #4e4f50;
+}
+
+.createItemLogo img{
+    height: 100%;
+    width: 100%;
 }
