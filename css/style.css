@@ -1167,6 +1167,7 @@ input{
 }
 
 .messengerModal{
+    display: none;
     position: fixed;
     top: 3.7rem;
     right: 1rem;

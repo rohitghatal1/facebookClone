@@ -8,6 +8,7 @@ let mainTab = document.getElementById("mainTab");
 let videoSection = document.getElementById("videoContainer");
 let groupSection = document.getElementById("groupContainer");
 let marketPlaceSection = document.getElementById("marketPlaceContainer");
+let messageModal = document.getElementById("messageModal");
 let notificatinModal = document.getElementById("notificaionModal");
 
 function removeborderTop(){
@@ -67,6 +68,14 @@ function openGroupTab(){
     videoSection.style.display = "none";
 }
 
+function openMesseges(){
+    if(messageModal.style.display === 'none'){
+        messageModal.style.display = 'block';
+    }
+    else{
+        messageModal.style.display = 'none';
+    }
+}
 function openNotification() {
     if(notificatinModal.style.display === 'none'){
         notificatinModal.style.display = 'block';
