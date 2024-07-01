@@ -12,6 +12,7 @@ let messageModal = document.getElementById("messageModal");
 let notificatinModal = document.getElementById("notificaionModal");
 let menuModal = document.getElementById("menuModal");
 let editProfileModal = document.getElementById("editProfileModal");
+let videoSectionMobile = document.getElementById("videoSectionMobile");
 
 function removeborderTop(){
     document.getElementById("homeTab").classList.remove('borderTop');
@@ -107,6 +108,7 @@ function openProfileModal(){
 // for mobile devices
 function openHomeMenu(){
     mobileMenu.style.display = "none";
+    videoSectionMobile.style.display = 'none';
     friendMenu.style.display = "none";
     mobileHeader.style.display = "flex";
     feeds.style.display = "block";
@@ -115,6 +117,7 @@ function openHomeMenu(){
 
 function openMenusMobile(){
     feeds.style.display= "none";
+    videoSectionMobile.style.display = 'none';
     document.getElementById("groups").style.display= "none";
     mobileHeader.style.display = "none";
     friendMenu.style.display = "none";
@@ -128,4 +131,13 @@ function openFriendMenu(){
     mobileHeader.style.display = "none";
     mobileMenu.style.display = "none"
     friendMenu.style.display = "block";
+    videoSectionMobile.style.display = 'none';
+}
+
+function openVideoTabMobile(){
+    videoSectionMobile.style.display = 'block';
+    mainTab.style.display = 'none';
+    mobileHeader.style.display = "none";
+    mobileMenu.style.display = "none"
+    document.getElementById("groups").style.display= "none";
 }

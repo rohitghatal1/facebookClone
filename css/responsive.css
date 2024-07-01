@@ -38,7 +38,7 @@
     }
 
     main{
-        display: none;
+        display: block;
         padding: 5px;
     }
 
@@ -307,8 +307,8 @@
     }
 
     .videoSectionMobile{
-        display: block;
-        margin-top: 7rem;
+        display: none;
+        margin-top: 3.5rem;
     }
 
     .headingMobile{

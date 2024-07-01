@@ -646,6 +646,9 @@ hr{
     display: none;
 }
 
+.videoSectionMobile{
+    display: none;
+}
 .videoSection .sideVideoMenus{
     background-color: #242526;
     color: #e7e9ed;
