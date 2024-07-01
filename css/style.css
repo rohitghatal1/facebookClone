@@ -1378,3 +1378,70 @@ input{
     height: 100%;
     width: 100%;
 }
+
+.editProfileModal{
+    /* display: none; */
+    position: fixed;
+    top: 3.7rem;
+    right: 1rem;
+    width: 25rem;
+    height: 87vh;
+    border-radius: 0.4rem;
+    z-index: 15;
+    background-color: #242526;
+    color: #e7e9ed;
+    padding: 1rem;
+}
+
+.IdSection{
+    padding: 0.5rem;
+    background-color: #242526;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.currentActiveId{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.currentIdLogo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.currentIdLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.seeAllProfile{
+    margin-top: 0.6rem;
+    padding: 0.5rem;
+}
+
+.actionsSection{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.actionsSection .action{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.actionLogo{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    padding: 0.4rem;
+    background-color: #4e4f50;
+}
+
+.actionLogo img{
+    width: 100%;
+    height: 100%;
+}
