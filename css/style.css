@@ -1380,12 +1380,11 @@ input{
 }
 
 .editProfileModal{
-    /* display: none; */
+    display: none;
     position: fixed;
     top: 3.7rem;
     right: 1rem;
-    width: 25rem;
-    height: 87vh;
+    width: 23rem;
     border-radius: 0.4rem;
     z-index: 15;
     background-color: #242526;
@@ -1431,6 +1430,7 @@ input{
     display: flex;
     align-items: center;
     gap: 0.4rem;
+    margin-top: 1rem;
 }
 
 .actionLogo{
