@@ -74,7 +74,7 @@
 
             <div class="navbarContents-mobile">
                 <span onclick="openHomeMenu()"><i class="bi bi-house-door-fill"></i></span>
-                <span><i class="bi bi-play-btn-fill"></i></span>
+                <span onclick="openVideoTab()"><i class="bi bi-play-btn-fill"></i></span>
                 <span onclick="openFriendMenu()"><i class="bi bi-people-fill"></i></span>
                 <span><i class="bi bi-person-circle"></i></span>
                 <span onclick="openMenusMobile()"><i class="bi bi-list"></i></span>
@@ -90,19 +90,38 @@
                     <label for="username">Rohit Ghatal</label>
                 </div>
 
-                <span class="friends"><figure class="sideMenuLogos"><img src="/logo/people-fill.svg" alt=""></figure><label for="">Friends</label></span>
+                <span class="friends">
+                    <figure class="sideMenuLogos"><img src="/logo/people-fill.svg" alt=""></figure><label
+                        for="">Friends</label>
+                </span>
 
-                <span class="memories"><figure class="sideMenuLogos"><img src="/logo/memories.svg" alt=""></figure><label for="Memories">Memories</label></span>
+                <span class="memories">
+                    <figure class="sideMenuLogos"><img src="/logo/memories.svg" alt=""></figure><label
+                        for="Memories">Memories</label>
+                </span>
 
-                <span class="saved"><figure class="sideMenuLogos"><img src="/logo/saved.svg" alt=""></figure><label for="">Saved</label></span>
+                <span class="saved">
+                    <figure class="sideMenuLogos"><img src="/logo/saved.svg" alt=""></figure><label for="">Saved</label>
+                </span>
 
-                <span class="group"><figure class="sideMenuLogos"><img src="/logo/group.svg" alt=""></figure><label for="">Groups</label></span>
+                <span class="group">
+                    <figure class="sideMenuLogos"><img src="/logo/group.svg" alt=""></figure><label
+                        for="">Groups</label>
+                </span>
 
-                <span class="videos"><figure class="sideMenuLogos"><img src="/logo/videos.svg" alt=""></figure><label for="">Videos</label></span>
+                <span class="videos">
+                    <figure class="sideMenuLogos"><img src="/logo/videos.svg" alt=""></figure><label
+                        for="">Videos</label>
+                </span>
 
-                <span class="marketPlace"><figure class="sideMenuLogos"><img src="/logo/marketplace.svg" alt=""></figure><label for="">Markeplace</label></span>
+                <span class="marketPlace">
+                    <figure class="sideMenuLogos"><img src="/logo/marketplace.svg" alt=""></figure><label
+                        for="">Markeplace</label>
+                </span>
 
-                <span class="feeds"><figure class="sideMenuLogos"><img src="/logo/feed.svg" alt=""></figure><label for="">Feeds</label></span>
+                <span class="feeds">
+                    <figure class="sideMenuLogos"><img src="/logo/feed.svg" alt=""></figure><label for="">Feeds</label>
+                </span>
             </div>
         </section>
 
@@ -994,7 +1013,6 @@
                 </div>
             </div>
         </div>
-
         <div class="videosContainer">
             <div class="allVideos">
                 <div class="videoDetails">
@@ -1148,6 +1166,64 @@
         </div>
     </section>
 
+    <section class="videoSectionMobile" id="videoSectionMobile">
+        <div class="videoHeadingMobile">
+            <div class="headingMobile">
+                <h3>Videos</h3>
+                <span>
+                    <figure class="v-userLogo"><img src="/logo/user.svg" alt=""></figure>
+                    <figure class="searchLogo"><img src="/logo/search.svg" alt=""></figure>
+                </span>
+            </div>
+        </div>
+        <div class="videoCategoryMobile">
+            <span>For you</span>
+            <span>Live</span>
+            <span>Reels</span>
+            <span>Following</span>
+        </div>
+
+        <div class="videosContainer">
+            <div class="allVideos">
+                <div class="videoDetails">
+                    <div class="videoOwnerDetails">
+                        <figure class="V-ownerLogo"><img src="/images/rebika.jpg" alt=""></figure>
+                        <span>
+                            <h3>Rebika Ramjali <span class="followOption">Follow</span></h3>
+                            <p>20 June at 12:30 <img src="/logo/globe.svg" alt=""></p>
+                        </span>
+                    </div>
+                    <p class="videoCaption">Good Morning</p>
+                    <div class="video">
+                        <video src="/video/Road traffic video for object recognition.mp4" controls></video>
+                    </div>
+
+                    <div class="videoReactions">
+                        <div class="newReaction">
+                            <div class="like">
+                                <figure class="reactionIcons"><img src="/logo/like.svg" alt=""></figure>
+                                <label>Like</label>
+                            </div>
+                            <div class="comment">
+                                <figure class="reactionIcons"><img src="/logo/comment.svg" alt=""></figure>
+                                <label for="">Comment</label>
+                            </div>
+                            <div class="share">
+                                <figure class="reactionIcons"><img src="/logo/share.svg" alt=""></figure>
+                                <label for="">Share</label>
+                            </div>
+                        </div>
+
+                        <div class="currentVideoReactions">
+                            <span>225 Likes</span>
+                            <span>80 Comments</span>
+                            <span>20 Shares</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="groupSection" id="groupContainer">
         <div class="sideGroupMenus">
             <div class="heading">

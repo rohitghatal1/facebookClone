@@ -38,6 +38,7 @@
     }
 
     main{
+        display: none;
         padding: 5px;
     }
 
@@ -303,5 +304,146 @@
     .removeReq{
         background-color: #4e4f50;
         color: #fff;
+    }
+
+    .videoSectionMobile{
+        display: block;
+        margin-top: 7rem;
+    }
+
+    .headingMobile{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding: 0.5rem;
+    }
+
+    .headingMobile span{
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+    .v-userLogo,
+    .searchLogo{
+        display: block;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 0.4rem;
+    }
+
+    .v-userLogo img,
+    .searchLogo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .videoCategoryMobile{
+        padding: 0.5rem;
+    }
+
+    .videoCategoryMobile span{
+        color: #fff;
+        background-color: #4e4f50;
+        padding: 0.4rem;
+        border-radius: 1rem;
+        font-size: small;
+    }
+
+    .videosContainer{
+        color: #e7e9ed;
+        padding: 1rem;
+        width: 20rem;
+    }
+    
+    .allVideos{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        color: #e7e9ed;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .videoDetails{
+        background-color: #242526;
+        width: 80%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+    .videoOwnerDetails{
+        display: flex;
+        gap: 0.5rem;
+    }
+    .V-ownerLogo{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .V-ownerLogo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .videoDetails p{
+        padding: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    
+    .video{
+        background-color: #18191a;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .video video{
+        width: 80%;
+        height: 100%;
+    }
+    
+    .videoReactions{
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .newReaction{
+        margin-top: 0.5rem;
+        display: flex;
+        gap: 0.5rem;
+        font-size: small;
+    }
+    
+    .like,
+    .comment,
+    .share{
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .videoReactions .reactionIcons{
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 5px;
+        background-color: #4e4f50;
+        border-radius: 50%;
+    }
+    
+    .videoReactions .reactionIcons img{
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: color-burn;
+    }
+    
+    .currentVideoReactions{
+        display: flex;
+        gap: 0.8rem;
+        font-size: small;
     }
 }
