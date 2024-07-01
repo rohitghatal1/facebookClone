@@ -11,6 +11,7 @@ let marketPlaceSection = document.getElementById("marketPlaceContainer");
 let messageModal = document.getElementById("messageModal");
 let notificatinModal = document.getElementById("notificaionModal");
 let menuModal = document.getElementById("menuModal");
+let editProfileModal = document.getElementById("editProfileModal");
 
 function removeborderTop(){
     document.getElementById("homeTab").classList.remove('borderTop');
@@ -91,6 +92,15 @@ function openNotification() {
     }
     else{
         notificatinModal.style.display = 'none';
+    }
+}
+
+function openProfileModal(){
+    if(editProfileModal.style.display === 'none'){
+        editProfileModal.style.display = 'block';
+    }
+    else{
+        editProfileModal.style.display = 'none';
     }
 }
 
