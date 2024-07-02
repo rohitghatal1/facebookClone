@@ -421,6 +421,11 @@ hr{
     gap: 4px;
 }
 
+.posterInfo img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
 .postLogo{
     width: 2.5rem;
     height: 2.5rem;
