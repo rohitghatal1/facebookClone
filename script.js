@@ -7,6 +7,7 @@ let FRequestTab = document.getElementById("freindRequestTab");
 let mainTab = document.getElementById("mainTab");
 let videoSection = document.getElementById("videoContainer");
 let groupSection = document.getElementById("groupContainer");
+let groups = document.getElementById("groups");
 let marketPlaceSection = document.getElementById("marketPlaceContainer");
 let messageModal = document.getElementById("messageModal");
 let notificatinModal = document.getElementById("notificaionModal");
@@ -118,7 +119,7 @@ function openHomeMenu(){
 function openMenusMobile(){
     feeds.style.display= "none";
     videoSectionMobile.style.display = 'none';
-    document.getElementById("groups").style.display= "none";
+    groups.style.display= "none";
     mobileHeader.style.display = "none";
     friendMenu.style.display = "none";
     mobileMenu.style.display = "block";
@@ -139,5 +140,6 @@ function openVideoTabMobile(){
     mainTab.style.display = 'none';
     mobileHeader.style.display = "none";
     mobileMenu.style.display = "none"
-    document.getElementById("groups").style.display= "none";
+    friendMenu.style.display = "none";
+    groups.style.display= "none";
 }
