@@ -60,10 +60,12 @@
 
     .addStoryCard{
         width: 10rem;
+        height: 15rem;
     }
 
     .storyCard{
         width: 10rem;
+        height: 15rem;
         padding: 3px;
         border-radius: 8px;
     }
