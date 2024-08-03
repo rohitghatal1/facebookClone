@@ -28,7 +28,7 @@ function removeborderTop(){
 }
 function openMainTab(){
     removeborderTop();
-    document.getElementById("homeTab").classList.add('borderTop')
+    homeTab.classList.add('borderTop')
     mainTab.style.display = "flex";
     FRequestTab.style.display = "none";
     videoSection.style.display = "none";
@@ -38,7 +38,7 @@ function openMainTab(){
 
 function openFriendRequestTab(){
     removeborderTop();
-    document.getElementById("friendRequestTab").classList.add('borderTop')
+    freindRequestTab.classList.add('borderTop')
     FRequestTab.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none";
@@ -48,7 +48,7 @@ function openFriendRequestTab(){
 
 function openVideoTab(){
     removeborderTop();
-    document.getElementById("videosTab").classList.add('borderTop')
+    videosTab.classList.add('borderTop')
     videoSection.style.display = "block"
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
@@ -58,7 +58,7 @@ function openVideoTab(){
 
 function openMarketPlaceTab(){
     removeborderTop();
-    document.getElementById("marketPlaceTab").classList.add('borderTop')
+    marketPlaceTab.classList.add('borderTop')
     marketPlaceSection.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none"
@@ -68,7 +68,7 @@ function openMarketPlaceTab(){
 
 function openGroupTab(){
     removeborderTop();
-    document.getElementById("groupTab").classList.add('borderTop')
+    groupTab.classList.add('borderTop')
     groupSection.style.display = "block";
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
