@@ -14,13 +14,17 @@ let notificatinModal = document.getElementById("notificaionModal");
 let menuModal = document.getElementById("menuModal");
 let editProfileModal = document.getElementById("editProfileModal");
 let videoSectionMobile = document.getElementById("videoSectionMobile");
-
+let homeTab = document.getElementById("homeTab");
+let freindRequestTab = document.getElementById("friendRequestTab");
+let videosTab = document.getElementById("videosTab");
+let marketPlaceTab = document.getElementById("marketPlaceTab");
+let groupTab = document.getElementById("groupTab");
 function removeborderTop(){
-    document.getElementById("homeTab").classList.remove('borderTop');
-    document.getElementById("friendRequestTab").classList.remove('borderTop');
-    document.getElementById("videosTab").classList.remove('borderTop');
-    document.getElementById("marketPlaceTab").classList.remove('borderTop');
-    document.getElementById("groupTab").classList.remove('borderTop');
+    hometab.classList.remove('borderTop');
+    freindRequestTab.classList.remove('borderTop');
+    videosTab.classList.remove('borderTop');
+    marketPlaceTab.classList.remove('borderTop');
+    groupTab.classList.remove('borderTop');
 }
 function openMainTab(){
     removeborderTop();
