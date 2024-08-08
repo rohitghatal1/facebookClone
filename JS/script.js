@@ -14,21 +14,17 @@ let notificatinModal = document.getElementById("notificaionModal");
 let menuModal = document.getElementById("menuModal");
 let editProfileModal = document.getElementById("editProfileModal");
 let videoSectionMobile = document.getElementById("videoSectionMobile");
-let homeTab = document.getElementById("homeTab");
-let freindRequestTab = document.getElementById("friendRequestTab");
-let videosTab = document.getElementById("videosTab");
-let marketPlaceTab = document.getElementById("marketPlaceTab");
-let groupTab = document.getElementById("groupTab");
+
 function removeborderTop(){
-    hometab.classList.remove('borderTop');
-    freindRequestTab.classList.remove('borderTop');
-    videosTab.classList.remove('borderTop');
-    marketPlaceTab.classList.remove('borderTop');
-    groupTab.classList.remove('borderTop');
+    document.getElementById("homeTab").classList.remove('borderTop');
+    document.getElementById("friendRequestTab").classList.remove('borderTop');
+    document.getElementById("videosTab").classList.remove('borderTop');
+    document.getElementById("marketPlaceTab").classList.remove('borderTop');
+    document.getElementById("groupTab").classList.remove('borderTop');
 }
 function openMainTab(){
     removeborderTop();
-    homeTab.classList.add('borderTop')
+    document.getElementById("homeTab").classList.add('borderTop')
     mainTab.style.display = "flex";
     FRequestTab.style.display = "none";
     videoSection.style.display = "none";
@@ -38,7 +34,7 @@ function openMainTab(){
 
 function openFriendRequestTab(){
     removeborderTop();
-    freindRequestTab.classList.add('borderTop')
+    document.getElementById("friendRequestTab").classList.add('borderTop')
     FRequestTab.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none";
@@ -48,7 +44,7 @@ function openFriendRequestTab(){
 
 function openVideoTab(){
     removeborderTop();
-    videosTab.classList.add('borderTop')
+    document.getElementById("videosTab").classList.add('borderTop')
     videoSection.style.display = "block"
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
@@ -58,7 +54,7 @@ function openVideoTab(){
 
 function openMarketPlaceTab(){
     removeborderTop();
-    marketPlaceTab.classList.add('borderTop')
+    document.getElementById("marketPlaceTab").classList.add('borderTop')
     marketPlaceSection.style.display = "block";
     mainTab.style.display = "none";
     videoSection.style.display = "none"
@@ -68,7 +64,7 @@ function openMarketPlaceTab(){
 
 function openGroupTab(){
     removeborderTop();
-    groupTab.classList.add('borderTop')
+    document.getElementById("groupTab").classList.add('borderTop')
     groupSection.style.display = "block";
     mainTab.style.display = "none";
     FRequestTab.style.display = "none";
