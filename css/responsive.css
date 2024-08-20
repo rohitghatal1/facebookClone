@@ -38,7 +38,8 @@
     }
 
     main{
-        display: block;
+        display: none;
+        /* display: block; */
         padding: 5px;
     }
 
@@ -438,4 +439,22 @@
         justify-content: space-between;
         font-size: 12px;
     }
+
+    .notificationMobile{
+        display: block;
+        background-color: #2a2b2c;
+        color: #fff;
+        position: relative;
+        top: 6rem;
+    }
+
+    .notificationHeadingMobile{
+        padding: 0.3rem;
+    }
+
+    .notificationHeadingMobile span {
+        font-size: medium;
+        margin-left: 0.4rem
+    };
 }
+
