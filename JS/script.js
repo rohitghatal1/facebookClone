@@ -88,6 +88,7 @@ function openMesseges(){
         messageModal.style.display = 'none';
     }
 }
+
 function openNotification() {
     if(notificatinModal.style.display === 'none'){
         notificatinModal.style.display = 'block';

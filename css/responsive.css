@@ -38,8 +38,7 @@
     }
 
     main{
-        display: none;
-        /* display: block; */
+        display: block;
         padding: 5px;
     }
 
@@ -383,6 +382,7 @@
         display: flex;
         gap: 0.5rem;
     }
+
     .V-ownerLogo{
         width: 2rem;
         height: 2rem;
@@ -440,7 +440,7 @@
         font-size: 12px;
     }
     .notificationModal{
-        display: block;
+        display: none;
         margin-top: 2.6rem;
         width: 100%;
         margin-right: -1rem;
