@@ -447,8 +447,27 @@
         border-radius: 0;
     }
     
+    .notificationModal .moreItemLogo{
+        display: none;
+    }
     .notificationModal .allAndUnread{
         display: none;
     }
+
+    .earlierAndSeeall{
+        margin-top: 1rem;
+    }
+
+    .earlierAndSeeall h2{
+        font-size: medium;
+    }
+    .earlierAndSeeall .seee{
+        display: none;
+    }
+
+    .previousNotificationbtn{
+        padding: 0.4rem;
+    }
 }
+
 
