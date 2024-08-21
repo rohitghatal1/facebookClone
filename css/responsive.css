@@ -443,8 +443,9 @@
 
     .profileSectionMobile{
         display: block;
-        margin-top: 7rem;
+        margin-top: 6.5rem;
         padding: 0.5rem;
+        background-color: #2a2b2c;
     }
 
     .profileSectionMobile .profileHeading{
@@ -457,11 +458,15 @@
     }
 
     .profileSectionMobile .profileHeading .editProfileLogo{
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 2rem;
+        height: 2rem;
         border-radius: 50%;
         background-color: #242526;
         color: #fff;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .profileSectionMobile .profileHeading .editProfileLogo img{
         width: 100%;
