@@ -114,6 +114,7 @@ function openHomeMenu(){
     friendMenu.style.display = "none";
     mobileHeader.style.display = "flex";
     feeds.style.display = "block";
+    notificatinModal.style.display = 'none';
     window.location.reload();
 }
 
@@ -121,6 +122,7 @@ function openMenusMobile(){
     feeds.style.display= "none";
     videoSectionMobile.style.display = 'none';
     groups.style.display= "none";
+    notificatinModal.style.display = 'none';
     mobileHeader.style.display = "none";
     friendMenu.style.display = "none";
     mobileMenu.style.display = "block";
@@ -134,6 +136,7 @@ function openFriendMenu(){
     mobileMenu.style.display = "none"
     friendMenu.style.display = "block";
     videoSectionMobile.style.display = 'none';
+    notificatinModal.style.display = 'none';
 }
 
 function openVideoTabMobile(){
@@ -143,4 +146,5 @@ function openVideoTabMobile(){
     mobileMenu.style.display = "none"
     friendMenu.style.display = "none";
     groups.style.display= "none";
+    notificatinModal.style.display = 'none';
 }
