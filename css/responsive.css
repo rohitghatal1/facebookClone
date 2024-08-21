@@ -38,8 +38,8 @@
     }
 
     main{
-        /* display: none; */
-        display: block;
+        display: none;
+        /* display: block; */
         padding: 5px;
     }
 
@@ -441,16 +441,31 @@
         font-size: 12px;
     }
 
-    .editProfileModal{
-        display: none;
-        margin-top: 2.7rem;
-        margin-right: -1rem;
-        width: 100%;
-        z-index: 15;
-        border-radius: 0;
+    .profileSectionMobile{
+        display: block;
+        margin-top: 7rem;
+        padding: 0.5rem;
+    }
+
+    .profileSectionMobile .profileHeading{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+    }
+
+    .profileSectionMobile .profileHeading .editProfileLogo{
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
         background-color: #242526;
-        color: #e7e9ed;
-        padding: 1rem;
+        color: #fff;
+    }
+    .profileSectionMobile .profileHeading .editProfileLogo img{
+        width: 100%;
+        height: 100%;
     }
     .notificationModal{
         display: none;
