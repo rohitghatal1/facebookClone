@@ -38,7 +38,8 @@
     }
 
     main{
-        display: block;
+        display: none;
+        /* display: block; */
         padding: 5px;
     }
 
@@ -438,6 +439,18 @@
         display: flex;
         justify-content: space-between;
         font-size: 12px;
+    }
+
+    .editProfileModal{
+        display: block;
+        margin-top: 2.7rem;
+        margin-right: -1rem;
+        width: 100%;
+        z-index: 15;
+        border-radius: 0;
+        background-color: #242526;
+        color: #e7e9ed;
+        padding: 1rem;
     }
     .notificationModal{
         display: none;
