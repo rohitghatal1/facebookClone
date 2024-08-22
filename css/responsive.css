@@ -495,6 +495,13 @@
         border: 6px solid #18191a;
     }
 
+    .profileSectionMobile .profileAndCoverPhoto h2{
+        margin-top: -4rem;
+        margin-left: 1rem;
+        color: #fff;
+    }
+
+
     .profileSectionMobile .profilePhoto img{
         width: 100%;
         height: 100%;
