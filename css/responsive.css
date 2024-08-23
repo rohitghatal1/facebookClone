@@ -444,18 +444,23 @@
     .profileSectionMobile{
         display: block;
         margin-top: 6.5rem;
-        padding: 0.5rem;
-        background-color: #2a2b2c;
+        background-color: #000;
     }
 
+    .profileSectionMobile .aboutProfile{
+        background-color: #2a2b2c;
+        padding-bottom: 1rem;
+    }
     .profileSectionMobile .profileHeading{
         display: flex;
-        width: 95%;
+        width: 100%;
         margin: auto;
         justify-content: space-between;
+        padding: 0.5rem;
         align-items: center;
         color: #fff;
     }
+
 
     .profileSectionMobile .profileHeading .editProfileLogo{
         width: 2rem;
@@ -472,6 +477,7 @@
         width: 100%;
         height: 100%;
     }
+
 
     .coverPhoto{
         width: 100%;
@@ -513,6 +519,7 @@
         align-items: center;
         gap: 0.5rem;
         margin-top: 1rem;
+        background-color: #2a2b2c;
     }
 
     .profileSectionMobile .addProfileBtns .storyAddBtn{
@@ -545,6 +552,10 @@
         justify-content: center;
         align-items: center;
         border-radius: 0.3rem;
+    }
+
+    .profileDetails{
+        margin-top: 1rem;
     }
 
     .notificationModal{
