@@ -461,7 +461,6 @@
         color: #fff;
     }
 
-
     .profileSectionMobile .profileHeading .editProfileLogo{
         width: 2rem;
         height: 2rem;
@@ -477,7 +476,6 @@
         width: 100%;
         height: 100%;
     }
-
 
     .coverPhoto{
         width: 100%;
@@ -555,9 +553,28 @@
     }
 
     .profileDetails{
-        margin-top: 1rem;
+        margin-top: 0.3rem;
+        background-color: #2a2b2c;
+        color: #e4e6eb;
+        padding: 1rem;
     }
 
+    .profileDetails .profileNavigator{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-size: 14px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e4e6eb;
+    }
+
+    .profileDetails .aboutUser{
+        margin-top: 0.5rem;
+    }
+
+    .profileDetails .aboutUser .details i{
+        margin-right: 0.5rem;
+    }
     .notificationModal{
         display: none;
         margin-top: 2.6rem;
