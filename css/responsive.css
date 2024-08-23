@@ -38,8 +38,8 @@
     }
 
     main{
-        display: none;
-        /* display: block; */
+        /* display: none; */
+        display: block;
         padding: 5px;
     }
 
@@ -442,7 +442,7 @@
     }
 
     .profileSectionMobile{
-        display: block;
+        display: none;
         margin-top: 6.5rem;
         background-color: #000;
     }
