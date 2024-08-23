@@ -575,6 +575,32 @@
     .profileDetails .aboutUser .details i{
         margin-right: 0.5rem;
     }
+
+    .profileDetails .aboutUser .editPublicBtn{
+        width: 100%;
+        padding: 0.5rem;
+        text-align: center;
+        background-color: #478cfb;
+        color: #fff;
+        border: none;
+        margin-top: 1rem;
+        border-radius: 0.2rem;
+    }
+
+    .profileDetails .aboutUser .frinedList{
+        margin-top: 1rem;
+    }
+
+    .profileDetails .aboutUser .frinedList .friendListHeading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .profileDetails .aboutUser .frinedList .friendListHeading .findFriendbtn{
+        color: #0966ff;
+    }
     .notificationModal{
         display: none;
         margin-top: 2.6rem;
