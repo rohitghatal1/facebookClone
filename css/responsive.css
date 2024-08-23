@@ -601,6 +601,24 @@
     .profileDetails .aboutUser .frinedList .friendListHeading .findFriendbtn{
         color: #0966ff;
     }
+
+    .profileSectionMobile .addPostSection{
+        margin-top: 0.3rem;
+        background-color: #2a2b2c;
+        padding: 1rem;
+    }
+
+    .profileSectionMobile .addPostSection .addPostheading{
+        color: #e4e6eb;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .profileSectionMobile .addPostSection .addPostheading .filter{
+        color: #0966ff;
+    }
     .notificationModal{
         display: none;
         margin-top: 2.6rem;
