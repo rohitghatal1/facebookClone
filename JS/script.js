@@ -93,10 +93,18 @@ function openMesseges(){
 function openNotification() {
     if(notificatinModal.style.display === 'none'){
         notificatinModal.style.display = 'block';
+        mobileHeader.style.display = "none";
+        mobileMenu.style.display = "none";
+        videoSectionMobile.style.display = 'none';
+        mainTab.style.display = 'none';
+        friendMenu.style.display = "none";
+        groups.style.display= "none";
+        profileSectionMobile.style.display = "none"
+
     }
     else{
         notificatinModal.style.display = 'none';
-    }
+    } 
 }
 
 function openProfileModal(){
