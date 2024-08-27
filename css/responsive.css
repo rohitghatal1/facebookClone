@@ -143,26 +143,31 @@
     }
 
     .menuItemsContainer{
+        margin-top: 0.5rem;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 0.5rem;
         padding: 7px;
         flex-wrap: wrap;
     }
     .menuItem{
-        margin-top: 10px;
-        min-width: 9.3rem;
+        margin-top: 0;
+        width: 48%;
         background-color: #4e4f50;
         color: #fff;
         padding: 10px;
         border-radius: 7px;
     }
     .menuLogo{
-        width: 2rem;
-        height: 2rem;
+        width: 1.2rem;
+        height: 1.2rem;
         border-radius: 50%;
         overflow: hidden;
     }
 
+    .menuItemName{
+        font-size: small;
+    }
     .menuLogo img{
         width: 100%;
         height: 100%;
